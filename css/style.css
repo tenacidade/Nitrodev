@@ -101,3 +101,45 @@ footer{
     background-color: #32a0c2;
     text-align: center;
 }
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form input[type="email"],
+    .contact input,
+    .contact textarea,
+    .contact label,
+
+
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #32a0c2;
+}
+ul#services h3{
+    border-bottom: #353637 solid 1px;
+}
