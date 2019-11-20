@@ -60,9 +60,15 @@
 <section id="newsletter">
     <div class="container">
         <h1>QL SEU EMAIL? JURO Q NAO FAÇO SPAM</h1>
-        <form action="">
-            <input type="email" placeholder="insira seu email PORFAVOR">
-            <button type="submit" class="button_1">Subscribe</button>
+        <form action="https://novo.nitronews.com.br/formularios/submit-form-HTML" method="post" target="_blank" id="formIntegracaoHTML">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email%%E-mail" id="email" required>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome%%Nome" id="nome">
+            <!-- Não apagar as linhas abaixo -->
+            <input type="hidden" name="chave[]" value="L4ZA">
+            <input type="hidden" name="cliente" value="Gabriel Ribeiro(nitro)">
+            <input type="submit" name="enviar" value="inscreva-se">
         </form>
     </div>
 </section>
