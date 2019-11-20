@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <title>Página do Gabretão</title>
     <script src="https://kit.fontawesome.com/12a8ca8626.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // código tab + g
+
+        var map = {}; // You could also use an array
+        onkeydown = onkeyup = function(e){
+            e = e || event; // to deal with IE
+            map[e.keyCode] = e.type == 'keydown';
+            /* insert conditional here */
+
+            if(map[71] ){ // tab+g
+
+                // toca áudio
+                new Audio('https://www.myinstants.com/media/sounds/preview_3.mp3').play();
+
+                // mostra gato
+
+                map = {};
+            }
+
+        }
+
+        // fim código tab + g
+    </script>
 </head>
 <body>
 <header>
